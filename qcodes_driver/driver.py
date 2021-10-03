@@ -124,7 +124,7 @@ class OPX_SpectrumScan(OPX):
             initial_value=0,
             unit="Hz",
             label="f start",
-            vals=Numbers(0, 1e3),
+            vals=Numbers(0, 5e8),
             get_cmd=None,
             set_cmd=None,
         )
@@ -133,7 +133,7 @@ class OPX_SpectrumScan(OPX):
             "f_stop",
             unit="Hz",
             label="f stop",
-            vals=Numbers(1, 1e3),
+            vals=Numbers(0, 5e8),
             get_cmd=None,
             set_cmd=None,
         )
